@@ -28,7 +28,7 @@ public class SlashBehavior : MonoBehaviour {
         distance = Vector3.Distance(startPosition, targetPosition);
         speed += distance;
 
-        anim.speed = 0.34f * speed / distance;
+        anim.speed = 0.3f * speed / distance;
         anim.SetTrigger("Attack");
         anim.SetInteger("currentLevel", spawner.GetComponent<HeroData>().currentLevelIndex);
     }
@@ -113,10 +113,10 @@ public class SlashBehavior : MonoBehaviour {
             healthBar.currentHealth -= damage;
 
             AudioSource audioSource = gameObject.GetComponent<AudioSource>();
-            if (!audioSource.isPlaying)
-            {
+            //if (!audioSource.isPlaying)
+            //{
                 audioSource.PlayOneShot(audioSource.clip);
-            }
+            //}
 
             if (healthBar.currentHealth <= 0)
             {

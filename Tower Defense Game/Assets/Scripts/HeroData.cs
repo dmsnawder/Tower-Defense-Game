@@ -67,7 +67,6 @@ public class HeroData : MonoBehaviour {
         else
         {
             return null;
-            // TODO: make it so you can't click to upgrade it anymore with UI visualization and all that, instead of returning null.
         }
     }
     
@@ -77,7 +76,15 @@ public class HeroData : MonoBehaviour {
         if (currentLevelIndex < levels.Count - 1)
         {
             CurrentLevel = levels[currentLevelIndex + 1];
-            gameObject.GetComponent<CircleCollider2D>().radius += 0.4f;
+
+            if (gameObject.name == "Knight(Clone)")
+            {
+                gameObject.GetComponent<CircleCollider2D>().radius += 0.12f;
+            }
+            else
+            {
+                gameObject.GetComponent<CircleCollider2D>().radius += 0.4f;
+            }
         }
     }
 

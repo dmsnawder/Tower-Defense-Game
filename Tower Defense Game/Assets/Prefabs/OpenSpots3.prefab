@@ -454,7 +454,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012261421862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.71, y: -0.48, z: 0}
+  m_LocalPosition: {x: -0.71, y: -0.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -702,7 +702,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000011012785280
@@ -724,7 +725,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000011464571784
@@ -746,7 +748,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000011603302268
@@ -768,7 +771,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000011824990872
@@ -790,7 +794,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000012240427520
@@ -812,7 +817,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000012354594070
@@ -834,7 +840,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000012669824100
@@ -856,7 +863,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000012854843262
@@ -878,7 +886,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000013205282944
@@ -900,7 +909,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000013412144796
@@ -922,7 +932,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000013505338096
@@ -944,7 +955,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000013853467736
@@ -966,7 +978,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!114 &114000013997319748
@@ -988,7 +1001,8 @@ MonoBehaviour:
     type: 2}
   upgradePrefab: {fileID: 1000010735034780, guid: 6a85a02a6af006b4d80a8b9a10837c1a,
     type: 2}
-  upgradeSidewaysPrefab: {fileID: 0}
+  upgradeSidewaysPrefab: {fileID: 1000010735034780, guid: 96cbcf9c6e6568e47bd88381753d7ad2,
+    type: 2}
   hero: {fileID: 0}
   gameManager: {fileID: 0}
 --- !u!212 &212000010361563320

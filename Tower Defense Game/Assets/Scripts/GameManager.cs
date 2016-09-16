@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviour {
             gameOver = false;
             ClockTime = 12;
             Night = nightNum;
-            Gold = 800;
+            Gold = 1800;
             Health = 1;
 
             prevHourTime = Time.time;

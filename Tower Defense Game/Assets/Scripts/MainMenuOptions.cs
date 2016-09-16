@@ -6,6 +6,7 @@ using System.Collections;
 public class MainMenuOptions : MonoBehaviour {
 
     public GameObject newGameWarningBox;
+    public GameObject creditsBox;
     public AudioClip hoverClick;
     public AudioClip startGame;
 
@@ -49,9 +50,19 @@ public class MainMenuOptions : MonoBehaviour {
         }
     }
 
+    public void Credits()
+    {
+        creditsBox.SetActive(true);
+    }
+
     public void CloseWarningBox()
     {
         newGameWarningBox.SetActive(false);
+    }
+
+    public void CloseCreditsBox()
+    {
+        creditsBox.SetActive(false);
     }
 
     IEnumerator LetFadeOut(int scene)
