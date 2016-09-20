@@ -81,8 +81,9 @@ public class MainMenuOptions : MonoBehaviour {
         if (PlayerPrefs.GetInt("scene") == 0)
         {
             GameObject continueButton = transform.FindChild("Continue").gameObject;
-            continueButton.transform.FindChild("Text").GetComponent<Text>().color = Color.gray;
+            continueButton.transform.FindChild("Text").GetComponent<Text>().text = "";
             continueButton.GetComponent<Button>().enabled = false;
         }
+
     }
 }

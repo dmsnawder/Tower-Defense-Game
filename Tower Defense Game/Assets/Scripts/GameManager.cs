@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour {
     public Text goldLabel;
     public Text nightLabel;
     public Text clockLabel;
-    int timeBetweenHours = 80;
+    int timeBetweenHours = 7;
     public float prevHourTime;
     int dawn = 6;
     public bool nightSurvived = false;
@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviour {
             gameOver = false;
             ClockTime = 12;
             Night = nightNum;
-            Gold = 1800;
+            Gold = 300;
             Health = 1;
 
             prevHourTime = Time.time;

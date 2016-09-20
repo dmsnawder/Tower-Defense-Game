@@ -40,7 +40,6 @@ public class SpawnEnemies : MonoBehaviour {
     public float spawnIntervalMin = 4f;
     public float spawnIntervalMax = 6f;
     public int maxEnemies = 6;
-    public AudioClip bossEnterSound;
 
     private bool haveSpawnedBoss = false;
     private int dawn = 6;
@@ -114,7 +113,6 @@ public class SpawnEnemies : MonoBehaviour {
                             {
                                 haveSpawnedBoss = true;
                                 newEnemy = Instantiate(waves[currentWave].enemies[4]);
-                                AudioSource.PlayClipAtPoint(bossEnterSound, transform.position);
                             }
                             // otherwise do what you been doin'
                             else
